@@ -1,0 +1,56 @@
+.boxes {
+	border: 3px solid lightcoral;
+}
+
+.box {
+	width: 5rem;
+	height: 5rem;
+}
+
+.box-one {
+	background: gold;
+}
+.box-two {
+	background: tomato;
+	position: relative;
+	left: 5rem;
+	bottom: 5rem;
+}
+.box-three {
+	background: dodgerblue;
+	position: relative;
+	left: 9rem;
+	bottom: 10rem;
+	z-index: -1;
+}
+
+div.fixed {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	width: 300px;
+	border: 3px solid #73ad21;
+}
+div.relative {
+	position: relative;
+	width: 400px;
+	height: 200px;
+	border: 3px solid #73ad21;
+}
+
+div.absolute {
+	position: absolute;
+	top: 80px;
+	right: 10px;
+	width: 300px;
+	height: 100px;
+	border: 3px solid #73ad21;
+}
+div.sticky {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+	padding: 5px;
+	background-color: #cae8ca;
+	border: 2px solid #4caf50;
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" />
+		<style>
+			#goBackLink,
+			#btn {
+				text-decoration: none;
+				background-color: #007bff;
+				color: #fff;
+				padding: 5px 10px;
+				border-radius: 4px;
+			}
+
+			#goBackLink:hover,
+			#btn:hover {
+				background-color: #9012d4b6;
+			}
+
+      .text {
+        border: 1px solid black;
+        background-color: thistle;
+		width: 300px;
+      }
+	  .highlight {
+		  background-color: yellowgreen;
+	  }
+		</style>
+	</head>
+	<body>
+		<h2>About Us</h2>
+		<a id="goBackLink" href="#">Go Back</a>
+		<a id="btn" href="img/mosh.jpg" download>My Photo</a>
+		<a id="btn" href="#section-css">CSS</a>
+		<a id="btn" href="index.html">HOME</a>
+		<h2>HTML</h2>
+    <P><DIV class="text">blOCK LEVEL ELEMENT</DIV></P>
+    <P><DIV class="text">blOCK LEVEL ELEMENT</DIV></P>
+		<p>
+			<div class="text">
+			  <span class="highlight">Lorem</span> ipsum dolor sit amet consectetur adipisicing elit. Eaque corrupti
+  			deleniti quisquam itaque tempora incidunt, officiis veniam at vero
+  			perferendis rerum in inventore doloremque ea velit molestias harum
+  			voluptatem nostrum ullam eum expedita fugit sapiente est autem! Minima
+  			quis explicabo nesciunt totam exercitationem animi modi quas, facilis, at
+  			ratione et maxime aperiam consequuntur esse. Explicabo, recusandae.
+  			Voluptatum ratione ducimus, delectus quae laborum ipsa ut quas accusamus,
+  			ex ea cupiditate nihil tempora. Assumenda voluptatum temporibus impedit
+  			veniam quasi exercitationem, facilis corporis perspiciatis eius ea at
+  			vitae nam, ipsa quam hic laboriosam fugiat labore corrupti consequuntur?
+  			Repudiandae officia voluptatibus aut sed non fuga eum aliquid reiciendis
+  			nulla rerum obcaecati harum iste nobis, velit perspiciatis nostrum sit,
+  			animi dolor delectus iure ex ratione excepturi. Alias ipsam, nam
+  			laudantium vel esse, saepe, voluptatem neque incidunt itaque obcaecati
+  			dolor dicta a modi consectetur cumque dignissimos? Eveniet explicabo,
+  			placeat architecto eaque quaerat veniam ea doloremque ratione debitis,
+  			consequatur in quae non aliquid ipsam laboriosam distinctio, corrupti
+  			mollitia voluptas eius sunt animi ab sequi deleniti delectus? Quia
+  			repellendus ut molestias, vero velit quidem, dignissimos in, quae magni
+  			voluptatum quisquam harum perferendis quo illum officiis debitis tempore
+  			alias labore tenetur. Sint cumque magni dolor ad esse, at id.
+			</div>
+		</p>
+		<h2 id="section-css">CSS</h2>
+		<p>
+			Click the <a href="#goBackLink"><i class="fas fa-arrow-up"></i></a> to go
+			up.
+		</p>
+		<p>
+		<div class="text">
+		  	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut aliquid
+  			cupiditate quae eligendi saepe ut delectus vero facilis quam maxime harum
+  			voluptate adipisci incidunt, eum sint unde corrupti odit, aspernatur
+  			repudiandae beatae? Blanditiis, ut voluptatum, officiis animi dicta,
+  			pariatur doloremque voluptates sed odio culpa quas ad voluptas perferendis
+  			alias deserunt!
+		</div>
+		</p>
+	</body>
+	<script>
+		document
+			.getElementById("goBackLink")
+			.addEventListener("click", function () {
+				history.back();
+			});
+	</script>
+</html>

@@ -1,0 +1,54 @@
+article p:first-of-type { 
+	font-size: 140%; 
+	font-style: italic; 
+} 
+ul li:nth-child(odd) { 
+	color: palevioletred; 
+} 
+ul li:nth-child(even) { 
+	color: sienna; 
+} 
+a:visited, 
+a:link { 
+	color: dodgerblue; 
+} 
+a:hover, 
+a:focus { 
+	color: deeppink; 
+} 
+h2 { 
+	color: white; 
+	text-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+} 
+.highlight { 
+	color: aqua; 
+} 
+#box { 
+	width: 600px; 
+	height: 200px; 
+	background: linear-gradient(dodgerblue, yellow);
+	background: radial-gradient(circle, white, lightblue); 
+	border: 2px solid dodgerblue; 
+	border-radius: 5px; 
+	margin-top: auto; 
+	margin-bottom: 100px; 
+	margin-right: 400px; 
+} 
+p { 
+	color: dodgerblue; 
+	border-bottom: 6px solid red; 
+} 
+p.one { 
+	padding: 10px 50px; top, right, bottom, left
+	border-style: solid; 
+	border-color: brown; 
+} 
+p.two { 
+	border-style: double; 
+	border-color: red green blue yellow; red top, green right, blue bottom and yellow left
+} 
+p.round { 
+	border: 2px solid black; 
+	border-radius: 5px; 
+}
+
