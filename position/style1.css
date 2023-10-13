@@ -1,36 +1,23 @@
-body {
-	background: #eeee;
-}
-.wrapper {
-	display: block;
-	background: #fff;
-	max-width: 960px;
-	margin: 0 auto;
-	padding: 20px;
-}
-.wrapper::after {
-	content: "";
-	display: block;
-	clear: both;
-}
-
-h1 {
-	text-align: center;
-}
-h2 {
-	text-align: center;
-}
-
-img {
-	float: left;
-	margin: 10px;
+.container {
+	border: 3px solid lightgrey;
+	display: flex;
+	flex-direction: row;
+	justify-content: center*-+;
 }
 .box {
-	height: 100px;
-	width: 100px;
+	width: 5rem;
+	height: 5rem;
+	background: gold;
+	margin: 1rem;
 }
 .red {
 	background: tomato;
+	position: fixed;
+	top: 0;
+	left: 2rem;
+	right: 2rem;
+	z-index: 9999;
+	width: auto;
 }
 .blue {
 	background: dodgerblue;
@@ -38,30 +25,25 @@ img {
 .green {
 	background: greenyellow;
 }
-
-/* Style each service block */
-.service {
-	background-color: #eeeeee;
-	border: 2px solid #edddee;
-	padding: 10px;
-	text-align: center;
-	width: 200px;
-	margin: 1% 0 0 7%;
-	float: left;
+.boxes {
+	border: 3px solid lightgrey;
+	position: relative;
 }
-
-/* Style the headings and paragraphs inside the service blocks */
-.service h2 {
-	font-size: 1.5em;
-	margin: 0;
+.tweet {
+	border: 3px solid lightcoral;
 }
-
-.service p {
-	margin: 10px 0;
-}
-.content {
-	background: lightblue;
-	padding: 10px;
+.clearfix::after {
+	content: "";
+	display: block;
 	clear: both;
-	margin-top: 50px;
+}
+.avatar {
+	width: 5rem;
+	height: 5rem;
+	background-color: gold;
+	float: left;
+	margin-right: 10px;
+}
+.clear {
+	clear: both;
 }
