@@ -1,0 +1,23 @@
+.container {
+	max-width: 800px;
+	margin: 0 auto; /* Center the container */
+	flex-wrap: wrap; /* Allow items to wrap to the next row */
+}
+.box {
+	box-shadow: rgba(0, 0, 0, 0.433) 0px 10px 20px;
+
+	background: tomato;
+
+	padding: 2rem;
+	border-radius: 2rem;
+	background: white;
+}
+.box h2 {
+	writing-mode: vertical-lr;
+	margin: 1rem 1rem 1rem 0;
+}
+p {
+	max-width: 25rem;
+	padding: 1rem 0rem;
+	margin: 0 0;
+}

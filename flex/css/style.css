@@ -1,0 +1,88 @@
+.body {
+	background: linear-gradient(45deg, #00ffd5, #7a00ff, #ff00c0);
+	/* Replace these colors with your desired gradient colors */
+	background-repeat: repeat-x; /* Prevent the gradient from repeating */
+	margin: 0;
+	background-color: #ff00c0;
+}
+
+.container {
+	/* max-width: 800px;
+	margin: 0 auto;  Center the container */
+	border: 3px solid #ff00c0;
+	display: inline-flex;
+	flex-direction: row;
+
+	flex-wrap: wrap;
+
+	align-content: flex-start;
+	background-color: rgb(255, 255, 255);
+}
+.items-1 {
+	background-color: burlywood;
+}
+.items-2 {
+	background-color: #00ff84;
+}
+.items-3 {
+	background-color: blueviolet;
+}
+.items-4 {
+	background-color: darkolivegreen;
+}
+.items-5 {
+	background-color: #000fff;
+}
+.items-6 {
+	background-color: #ff00c0;
+}
+.items-7 {
+	background-color: #0aafa5;
+}
+.items-8 {
+	background-color: #7a00ff;
+}
+.items-9 {
+	background-color: #311229;
+}
+
+.flex-items {
+	color: azure;
+	font-size: 1.5rem;
+	padding: 1rem;
+	text-align: center;
+}
+
+nav {
+	font-size: 2rem;
+	background-color: #f1f1f1;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+nav ul li {
+	padding: 0.5rem;
+	cursor: pointer;
+}
+
+nav ul li:hover {
+	background-color: #ff00cc;
+	color: azure;
+	font-weight: bold;
+	flex: 0 1 auto;
+}
+
+@media all and (max-width: 600px) {
+	nav ul {
+		flex-direction: column;
+	}
+	nav ul li {
+		text-align: center;
+	}
+}
